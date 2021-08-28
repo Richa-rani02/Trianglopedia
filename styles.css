@@ -12,9 +12,11 @@ body {
 
 * {
     margin: 0px;
+    padding: 0px;
 }
 
 .container {
+    width: 100%;
     text-align: center;
     background-color: var(--primary-color);
     color: whitesmoke;
@@ -23,7 +25,7 @@ body {
 }
 
 .containerlist {
-    max-width: 50vh;
+    max-width: 40vh;
     margin-top: 2rem;
     padding: 1rem;
     margin: auto;
