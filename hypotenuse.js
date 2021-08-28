@@ -1,6 +1,6 @@
 var sides = document.querySelectorAll(".angle-input");
-const calculate = document.querySelector(".angles-btn");
-const result = document.querySelector(".result");
+var calculate = document.querySelector(".angles-btn");
+var result = document.querySelector(".result");
 
 function sumOfSquares(a, b) {
     var sumValue = a * a + b * b;
