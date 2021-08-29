@@ -19,7 +19,7 @@ function checkIfTriangle() {
         result.innerText = "Yay! the angle values form a triangle 🥳";
         result.style.color = "green";
     } else {
-        result.innerText = "Oops! the angles don't form a triangle 😓";
+        result.innerText = "Oops! the angles don't form a triangle";
         result.style.color = "red";
     }
 }
