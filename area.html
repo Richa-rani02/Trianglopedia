@@ -18,17 +18,17 @@
         <h3 id="formula">Area of Triangle=1/2*base*height</h3>
 
         <div class="inputb">
-            <input id="base1" class="angle-input" type="number">
-            <input id="height1" class="angle-input" type="number">
+            <input id="base1" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
+            <input id="height1" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
         </div>
         <button id="btn1" class="angles-btn">CALCULATE</button>
         <div id="result1" class="result"></div>
         <h3>Find Area of triangle when length of sides are given</h3>
         <h3 id="formula">Area of Triangle=sqrt(s(s-a)*(s-b)*(s-c))<br> where s=(a+b+c)/2</h3>
         <div class="inputb">
-            <input id="base2" class="angle-input" type="number">
-            <input id="base3" class="angle-input" type="number">
-            <input id="base4" class="angle-input" type="number">
+            <input id="base2" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
+            <input id="base3" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
+            <input id="base4" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
         </div>
         <button id="btn2" class="angles-btn">CALCULATE</button>
         <div id="result2" class="result"></div>

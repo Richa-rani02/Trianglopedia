@@ -18,8 +18,8 @@
         <h3 id="formula">Length of Hypotenuse=sqrt(base<sup>2</sup>+height<sup>2</sup>)</h3>
         <img src="images/triangle.jpg">
         <div class="inputb">
-            <input id="inph1" class="angle-input" type="number">
-            <input id="inph2" class="angle-input" type="number">
+            <input id="inph1" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
+            <input id="inph2" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
         </div>
         <button class="angles-btn">SUBMIT</button>
         <div class="result"></div>
